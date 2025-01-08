@@ -1,0 +1,176 @@
+{
+    "categories": [
+      {
+        "name": "Vegetables",
+        "id": "vegetables",
+        "items": [
+          { "name": "Tomato",        "image": "./Assets/( 1 ) VEGETABLE/1.1.JPG" },
+          { "name": "Potato",        "image": "./Assets/( 1 ) VEGETABLE/1.2.JPG" },
+          { "name": "Cabbage",       "image": "./Assets/( 1 ) VEGETABLE/1.3.JPG" },
+          { "name": "Carrot",        "image": "./Assets/( 1 ) VEGETABLE/1.4.JPG" },
+          { "name": "Capsicum",      "image": "./Assets/( 1 ) VEGETABLE/1.5.JPG" },
+          { "name": "Onion",         "image": "./Assets/( 1 ) VEGETABLE/1.6.JPG" },
+          { "name": "Corn",          "image": "./Assets/( 1 ) VEGETABLE/1.7.JPG" },
+          { "name": "Brocoli",       "image": "./Assets/( 1 ) VEGETABLE/1.8.JPG" },
+          { "name": "Lemon",         "image": "./Assets/( 1 ) VEGETABLE/1.9.JPG" },
+          { "name": "Brinjal",       "image": "./Assets/( 1 ) VEGETABLE/1.10.JPG" },
+          { "name": "Garlic",        "image": "./Assets/( 1 ) VEGETABLE/1.11.JPG" },
+          { "name": "Drumstick",     "image": "./Assets/( 1 ) VEGETABLE/1.12.JPG" },
+          { "name": "Cucumber",      "image": "./Assets/( 1 ) VEGETABLE/1.13.JPG" },
+          { "name": "Cauli Flower",  "image": "./Assets/( 1 ) VEGETABLE/1.14.JPG" },
+          { "name": "Green Chilly",  "image": "./Assets/( 1 ) VEGETABLE/1.15.JPG" }
+        ]
+      },
+
+      {
+        "name": "Spices",
+        "id": "spices",
+        "items": [
+          { "name": "Jaggery",             "image": "./Assets/( 2 ) SPICES/2.1.JPG" },
+          { "name": "Jaggery Power",       "image": "./Assets/( 2 ) SPICES/2.2.JPG" },
+          { "name": "Cumin",               "image": "./Assets/( 2 ) SPICES/2.3.JPG" },
+          { "name": "Cardamom",            "image": "./Assets/( 2 ) SPICES/2.4.JPG" },
+          { "name": "Turmaric",            "image": "./Assets/( 2 ) SPICES/2.5.JPG" },
+          { "name": "Ginger",              "image": "./Assets/( 2 ) SPICES/2.6.JPG" },
+          { "name": "Redchilli",           "image": "./Assets/( 2 ) SPICES/2.7.JPG" },
+          { "name": "Fennel",              "image": "./Assets/( 2 ) SPICES/2.8.JPG" },
+          { "name": "Mint/Pudina",         "image": "./Assets/( 2 ) SPICES/2.9.JPG" },
+          { "name": "Dry Red Chilly",      "image": "./Assets/( 2 ) SPICES/2.10.JPG" },
+          { "name": "Dry Ginger",          "image": "./Assets/( 2 ) SPICES/2.11.JPG" },
+          { "name": "Carlander Seed",      "image": "./Assets/( 2 ) SPICES/2.12.JPG" },
+          { "name": "Clove",               "image": "./Assets/( 2 ) SPICES/2.13.JPG" },
+          { "name": "Cinnamon",            "image": "./Assets/( 2 ) SPICES/2.14.JPG" },
+          { "name": "Asafoetide",          "image": "./Assets/( 2 ) SPICES/2.15.JPG" }
+          
+        ]
+      },
+
+      {
+        "name": "Ready To Eat",
+        "id": "ready-to-eat",
+        "items": [
+          { "name": "Pav Bhaji",                 "image": "./Assets/( 3 ) READY TO EAT/3.1.JPG" },
+          { "name": "Panner Bhurji",             "image": "./Assets/( 3 ) READY TO EAT/3.2.JPG" },
+          { "name": "Panner Butter Masala",      "image": "./Assets/( 3 ) READY TO EAT/3.3.JPG" },
+          { "name": "Kaju",                      "image": "./Assets/( 3 ) READY TO EAT/3.4.JPG" },
+          { "name": "Moong Sbji",                "image": "./Assets/( 3 ) READY TO EAT/3.5.JPG" },
+          { "name": "Dal Makhni",                "image": "./Assets/( 3 ) READY TO EAT/3.6.JPG" },
+          { "name": "Masala Kadhi Khichdi",      "image": "./Assets/( 3 ) READY TO EAT/3.7.JPG" },
+          { "name": "Shezwan Rise",              "image": "./Assets/( 3 ) READY TO EAT/3.8.JPG" },
+          { "name": "Veg. Biryani",              "image": "./Assets/( 3 ) READY TO EAT/3.9.JPG" },
+          { "name": "Dal Dhokli",                "image": "./Assets/( 3 ) READY TO EAT/3.10.JPG" },
+          { "name": "Pulav",                     "image": "./Assets/( 3 ) READY TO EAT/3.11.JPG" },
+          { "name": "Kadhi Bhat",                "image": "./Assets/( 3 ) READY TO EAT/3.12.JPG" },
+          { "name": "Dal Bhat",                  "image": "./Assets/( 3 ) READY TO EAT/3.13.JPG" },
+          { "name": "Surati Kadhi",              "image": "./Assets/( 3 ) READY TO EAT/3.14.JPG" },
+          { "name": "Gujarati Dal",              "image": "./Assets/( 3 ) READY TO EAT/3.15.JPG" },
+          { "name": "Udad Dal",                  "image": "./Assets/( 3 ) READY TO EAT/3.16.JPG" },
+          { "name": "Upma",                      "image": "./Assets/( 3 ) READY TO EAT/3.17.JPG" },
+          { "name": "Poha",                      "image": "./Assets/( 3 ) READY TO EAT/3.18.JPG" },
+          { "name": "Gujar Halwa",               "image": "./Assets/( 3 ) READY TO EAT/3.19.JPG" },
+          { "name": "Mohan Thal",                "image": "./Assets/( 3 ) READY TO EAT/3.20.JPG" },
+          { "name": "Rava Shira",                "image": "./Assets/( 3 ) READY TO EAT/3.21.JPG" },
+          { "name": "Moong Dal Shira",           "image": "./Assets/( 3 ) READY TO EAT/3.22.JPG" }
+          
+        ]
+      },
+
+      {
+        "name": "Fruits",
+        "id": "fruits",
+        "items": [
+          { "name": "Apple",              "image": "./Assets/( 4 ) FRUITS/4.1.JPG" },
+          { "name": "Banana",             "image": "./Assets/( 4 ) FRUITS/4.2.JPG" },
+          { "name": "Grapes",             "image": "./Assets/( 4 ) FRUITS/4.3.JPG" },
+          { "name": "Mango",              "image": "./Assets/( 4 ) FRUITS/4.4.JPG" },
+          { "name": "Kiwi",               "image": "./Assets/( 4 ) FRUITS/4.5.JPG" },
+          { "name": "Orange",             "image": "./Assets/( 4 ) FRUITS/4.6.JPG" },
+          { "name": "Prome Granate",      "image": "./Assets/( 4 ) FRUITS/4.7.JPG" },
+          { "name": "Guava",              "image": "./Assets/( 4 ) FRUITS/4.8.JPG" },
+          { "name": "Watermelon",         "image": "./Assets/( 4 ) FRUITS/4.9.JPG" },
+          { "name": "Strawberry",         "image": "./Assets/( 4 ) FRUITS/4.10.JPG" },
+          { "name": "Pineapple",          "image": "./Assets/( 4 ) FRUITS/4.11.JPG" },
+          { "name": "Muskmelon",          "image": "./Assets/( 4 ) FRUITS/4.12.JPG" },
+          { "name": "Chickoo",            "image": "./Assets/( 4 ) FRUITS/4.13.JPG" },
+          { "name": "Cherray",            "image": "./Assets/( 4 ) FRUITS/4.14.JPG" },
+          { "name": "Lychee",             "image": "./Assets/( 4 ) FRUITS/4.15.JPG" },
+          { "name": "Papaiya",            "image": "./Assets/( 4 ) FRUITS/4.16.JPG" },
+          { "name": "Dragon Fruit",       "image": "./Assets/( 4 ) FRUITS/4.17.JPG" },
+          { "name": "Avocado",            "image": "./Assets/( 4 ) FRUITS/4.18.JPG" },
+          { "name": "Blueberry",          "image": "./Assets/( 4 ) FRUITS/4.19.JPG" },
+          { "name": "Peach",              "image": "./Assets/( 4 ) FRUITS/4.20.JPG" }
+          
+        ]
+      },
+
+      {
+        "name": "Grains",
+        "id": "grains",
+        "items": [
+          { "name": "Jaggery",             "image": "./Assets/( 5 ) GRAINS/5.1.WEBP" },
+          { "name": "Jaggery Power",       "image": "./Assets/( 5 ) GRAINS/5.2.WEBP" },
+          { "name": "Cumin",               "image": "./Assets/( 5 ) GRAINS/5.3.JPG" },
+          { "name": "Cardamom",            "image": "./Assets/( 5 ) GRAINS/5.4.JPG" },
+          { "name": "Turmaric",            "image": "./Assets/( 5 ) GRAINS/5.5.JPG" },
+          { "name": "Ginger",              "image": "./Assets/( 5 ) GRAINS/5.6.JPG" },
+          { "name": "Redchilli",           "image": "./Assets/( 5 ) GRAINS/5.7.JPG" },
+          { "name": "Fennel",              "image": "./Assets/( 5 ) GRAINS/5.8.JPG" },
+          { "name": "Mint/Pudina",         "image": "./Assets/( 5 ) GRAINS/5.9.JPG" },
+          { "name": "Dry Red Chilly",      "image": "./Assets/( 5 ) GRAINS/5.10.JPG" }
+         
+        ]
+      },
+
+      {
+        "name": "Pulses",
+        "id": "pulses",
+        "items": [
+          { "name": "Chick Peans",          "image": "./Assets/( 6 ) PULSES/6.1.JPG" },
+          { "name": "Kidney Beans",         "image": "./Assets/( 6 ) PULSES/6.2.JPG" },
+          { "name": "Soya Beans",           "image": "./Assets/( 6 ) PULSES/6.3.JPG" },
+          { "name": "Masur",                "image": "./Assets/( 6 ) PULSES/6.4.JPG" },
+          { "name": "Dry Green Peas",       "image": "./Assets/( 6 ) PULSES/6.5.JPG" },
+          { "name": "Urad",                 "image": "./Assets/( 6 ) PULSES/6.6.JPG" },
+          { "name": "Moong Beens",          "image": "./Assets/( 6 ) PULSES/6.7.JPG" },
+          { "name": "Red Lentile",          "image": "./Assets/( 6 ) PULSES/6.8.JPG" }
+        ]
+      },
+
+      {
+        "name": "Dry Fruits",
+        "id": "dry-fruits",
+        "items": [
+          { "name": "Almonds",              "image": "./Assets/( 7 ) DRY FRUITS/7.1.JPG" },
+          { "name": "Cashew Nut",           "image": "./Assets/( 7 ) DRY FRUITS/7.2.JPG" },
+          { "name": "Pistachio",            "image": "./Assets/( 7 ) DRY FRUITS/7.3.JPG" },
+          { "name": "Walnuts",              "image": "./Assets/( 7 ) DRY FRUITS/7.4.JPG" },
+          { "name": "Raisin",               "image": "./Assets/( 7 ) DRY FRUITS/7.5.JPG" },
+          { "name": "Black Raisin",         "image": "./Assets/( 7 ) DRY FRUITS/7.6.JPG" },
+          { "name": "Figs",                 "image": "./Assets/( 7 ) DRY FRUITS/7.7.JPG" },
+          { "name": "Dates",                "image": "./Assets/( 7 ) DRY FRUITS/7.8.JPG" },
+          { "name": "Hazelnut",             "image": "./Assets/( 7 ) DRY FRUITS/7.9.JPG" }
+          
+        ]
+      },
+
+
+      {
+        "name": "Flours",
+        "id": "flours",
+        "items": [
+          { "name": "Wheat Flour",              "image": "./Assets/( 8 ) FLOURS/8.1.JPG" },
+          { "name": "Corn Flour",               "image": "./Assets/( 8 ) FLOURS/8.2.JPG" },
+          { "name": "Gram Flour/Besan",         "image": "./Assets/( 8 ) FLOURS/8.3.JPG" },
+          { "name": "Sorgum Flour",             "image": "./Assets/( 8 ) FLOURS/8.4.JPG" },
+          { "name": "Millet Flour",             "image": "./Assets/( 8 ) FLOURS/8.5.JPG" },
+          { "name": "Rice Flour",               "image": "./Assets/( 8 ) FLOURS/8.6.JPG" },
+          { "name": "Urad Flour",               "image": "./Assets/( 8 ) FLOURS/8.7.JPG" },
+          { "name": "Barley Flour",             "image": "./Assets/( 8 ) FLOURS/8.8.JPG" },
+          { "name": "Oats Flour",               "image": "./Assets/( 8 ) FLOURS/8.9.JPG" }
+        ]
+      }
+
+
+    ]
+  }
+  

@@ -1,0 +1,337 @@
+
+:root {
+    --primary-color:#efc44d;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    font-style: normal;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--primary-color);
+    background:  linear-gradient(360deg, #000000ec, #050505e2, #000000ac);
+    padding-right: 0%;
+}
+
+
+
+header {
+    background-color: #1f1e1ece;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.86);
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 1000;
+    border: 1.5px solid #000000a9;
+    border-radius: 0.2rem;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 0.3rem 5%;
+}
+
+.logo {
+    font-size: 1rem;
+    font-weight: bold;
+    width: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 4rem;
+    font-size: 20px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: larger;
+}
+
+main {
+    padding-top: 50px;
+}
+
+section {
+
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.8rem;
+    font-size: 3rem;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+   
+}
+
+.hero video {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.423);
+    padding: 2rem;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 4.5rem;
+}
+
+.about-content img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 13%;
+}
+
+
+/* -----------------------------------------Products Section----------------------------------------------------- */
+#products {
+    background-color: #1f1e1e;
+    padding: 2rem 5%;
+    border-radius: 1rem;
+    border: 1px solid #000;
+    color: var(--primary-color);
+    box-sizing: border-box; /* Ensures padding doesn't affect layout */
+}
+
+#products h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    text-shadow: 1px 1px 2px #000;
+}
+
+
+
+.category-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.item-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.item-box {
+    margin: 10px;
+    width: calc(20% - 20px);
+    text-align: center;
+    transition: transform 0.2s ease-in-out; /* Smooth transition for item zoom effect */
+    
+}
+
+.item-box:hover {
+    transform: scale(1.05); /* Slight zoom effect on item hover */
+}
+
+.item-box img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.close-category {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3e8e41;
+    color: #fff;
+    cursor: pointer;
+}
+
+.close-category:hover {
+    background-color: #c63030b0;
+}
+
+/* Media Query for small screens */
+@media (max-width: 768px) {
+    .category {
+        flex: 1 1 calc(50% - 1rem); /* Adjust for two items per row on medium screens */
+    }
+
+    .item-box {
+        width: calc(45% - 20px); /* Ensure items adjust to smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .category {
+        flex: 1 1 100%; /* Single column layout for small screens */
+    }
+
+    .item-box {
+        width: calc(100% - 20px); /* Items take full width on small screens */
+    }
+
+    #products h2 {
+        font-size: 2rem; /* Smaller font size for small screens */
+    }
+}
+
+
+/* ------------------Contact Section----------------------------------  */
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    
+}
+h3 {
+    font-size: 2rem;
+}
+
+
+form {
+    padding-right: 4rem;
+    width: 45%;
+}
+
+input {
+    width: 100%;
+    font-size: larger;
+    color: var(--primary-color);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 0.2rem solid #000;
+    border-radius: 15px;
+    border-color: var(--primary-color);
+    background: linear-gradient(50deg, #3d3c3c60, #898686bd, #36363658);;
+}
+textarea{
+    width: 100%;
+    font-size: 23px;
+    color: var(--primary-color);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border: 0.2rem solid #000;
+    border-radius: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    border-color: var(--primary-color);
+    background: linear-gradient(50deg, #3d3c3c60, #898686bd, #36363658);
+}
+
+button {
+    background-color: var(--primary-color);
+    width: 9rem;
+    height: 3.2rem;
+    color: #000000;
+    border: 1px solid #000;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.contact-info {
+    width: 45%;
+    padding-left: 5rem;
+}
+
+.contact-info {
+    width: 45%;
+    font-size: larger;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.social-links {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(31, 30, 30, 0.8);
+    padding: 1rem 0.5rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 500;
+}
+
+.social-icon {
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    transition: color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        margin-top: 1rem;
+    }
+
+    .about-content, .contact-content {
+        flex-direction: column;
+    }
+
+    .category, form, .contact-info {
+        width: 100%;
+        
+    }
+}
