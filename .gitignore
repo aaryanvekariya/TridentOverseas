@@ -1,2 +1,47 @@
-Assets/
-.hintrc/
+# Ignore node_modules and dependencies
+node_modules/
+bower_components/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment and secret files
+.env
+.env.local
+.env.*.local
+
+# Ignore VS Code-specific settings
+.vscode/
+*.code-workspace
+
+# Ignore build and output directories
+dist/
+build/
+out/
+temp/
+coverage/
+
+# Ignore log and debug files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore compiled or minified files
+*.min.js
+*.min.css
+*.cache
+
+# Ignore archives and temporary files
+*.zip
+*.tar.gz
+*.tmp
+
+# Ignore lock files (optional)
+package-lock.json
+yarn.lock
+
+# Ignore IDE-specific files (non-VS Code)
+.idea/
+*.iml
